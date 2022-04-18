@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Cheatsheet</title>
+    <link rel="stylesheet" href="style.CSS">
+    <script src="Javascript.js"></script>
+</head>
+
+<body>
+    <table class="header">
+        <tr>
+            <td>
+                <table class="header1">
+                    <tr>
+                        <td>
+                            <font class="main">
+                                Let's Code
+                            </font>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td onclick="home();">
+                            <font class="font">Home</font>
+                        </td>
+                        <td onclick="blog();">
+                            <font class="font">Blog</font>
+                        </td>
+                        <td onclick="contact();">
+                            <font class="font">Contact</font>
+                        </td>
+                        <td onclick="login();">
+                            <font class="font">Login</font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <h1>JavaScript Cheatsheet</h1>
+    <font size="5px">Set of JavaScript basic syntax to add, execute and write basic programming paradigms in Javascript
+    </font>
+    <h2>On Page Script</h2>
+    <p>Adding internal JavaScript to HTML</p>
+    <pre class="code">
+    &lt;script type="text/javascript"&gt; //JS code goes here &lt;/script&gt;
+    </pre>
+    <h2>External JS File</h2>
+    <p>Adding external JavaScript to HTML</p>
+    <pre class="code">
+    &lt;script src="filename.js"&gt;&lt;/script&gt;
+    </pre>
+    <h2>Functions</h2>
+    <p>JavaScript Function syntax</p>
+    <pre class="code">
+    function nameOfFunction() {
+        // function body 
+    }
+    </pre>
+    <h2>DOM Element</h2>
+    <p>Changing content of a DOM Element</p>
+    <pre class="code">
+    document.getElementById("elementID").innerHTML = "Hello World!";
+    </pre>
+    <h2>Conditional Statements</h2>
+    <p>Conditional statements are used to perform operations based on some conditions.</p>
+    <h2>If Statement</h2>
+    <p>The block of code to be executed, when the condition specified is true.</p>
+    <pre class="code">
+    if (condition) {
+        // block of code to be executed if the condition is true
+    }
+    </pre>
+    <h2>If-else Statement</h2>
+    <p>If the condition for the if block is false, then the else block will be executed.</p>
+    <pre class="code">
+if (condition) {
+    // block of code to be executed if the condition is true
+} else {
+    // block of code to be executed if the condition is false
+}
+</pre>
+    <h2>Else-if Statement</h2>
+    <p>A basic if-else ladder</p>
+    <pre class="code">
+if (condition1) {
+    // block of code to be executed if condition1 is true
+} else if (condition2) {
+    // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    // block of code to be executed if the condition1 is false and condition2 is false
+}
+</pre>
+    <h2>Switch Statement</h2>
+    <p>Switch case statement in JavaScript</p>
+    <pre class="code">
+switch (expression) {
+    case x:
+        // code block
+        break;
+    case y:
+        // code block
+        break;
+    default:
+        // code block
+}
+</pre>
+    <h2>Iterative Statements (Loops)</h2>
+    <p>Iterative statement facilitates programmer to execute any block of code lines repeatedly and can be
+        controlled as per conditions added by the programmer.</p>
+    <h2>For Loop</h2>
+    <p>For loop syntax in javascript</p>
+    <pre class="code">
+for (initialization; condition; incrementation;) {
+    // code block to be executed
+}
+</pre>
+    <h2>While Loop</h2>
+    <p>Runs the code till the specified condition is true</p>
+    <pre class="code">
+while (condition) {
+    // code block to be executed
+}
+</pre>
+    <h2>Do While Loop</h2>
+    <p>A do while loop is executed at least once despite the condition being true or false</p>
+    <pre class="code">
+do {
+    // run this code in block
+    i++;
+} while (condition);
+</pre>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.CSS">
+    <style>
+        body {
+            background: url("bg2.jpg") no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <script src="Javascript.js"></script>
+</head>
+
+<body>
+    <table class="header">
+        <tr>
+            <td>
+                <table class="header1">
+                    <tr>
+                        <td>
+                            <font class="main">
+                                Let's Code
+                            </font>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td onclick="home();">
+                            <font class="font">Home</font>
+                        </td>
+                        <td onclick="blog();">
+                            <font class="font">Blog</font>
+                        </td>
+                        <td onclick="contact();">
+                            <font class="font">Contact</font>
+                        </td>
+                        <td onclick="login();">
+                            <font class="font">Login</font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <h1 align="center">Let's talk about everything</h1><br>
+    <form onsubmit="val()">
+        <table height="450" width="1300" align="center">
+            <tr>
+            <tr>
+                <th><h2>Name:</h2></th>
+                <td> <input type="text" placeholder="In Capital Letter" id="name"></td>
+            </tr>
+            <tr>
+                <th><h2>Email:</h2></th>
+                <td> <input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <th><h2>Password:</h2></th>
+                <td> <input type="password" id="pass"></td>
+            </tr>
+            <tr>
+                <th><h2>Phone Number:</h2></th>
+                <td> <input type="text" id="num"></td>
+            </tr>
+            <tr>
+                <th><h2>Enter your query:</h2></th>
+                <td> <textarea row=4 cols=25></textarea></td>
+            </tr>
+            <tr>
+                <th><h2>Select gender:</h2></th>
+                <td><input type="radio" name="gender" id="g1"> male <input type="radio" name="gender" id="g2">female</td>
+            </tr>
+            <tr>
+                <th><h2>Query related to:</h2></th>
+                <td><select id="q1">
+                        <option value="-1" selected></option>
+                        <option value="1">C Programming</option>
+                        <option value="2">C++ Programming</option>
+                        <option value="3">HTML</option>
+                        <option value="4">CSS</option>
+                        <option value="5"> JAVA SCRIPT</option>
+                        <option value="6">Other</option>
+                    </select>
+            </tr>
+            <tr>
+                <td colspan=2 align="center"><input type="submit" class="btn"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

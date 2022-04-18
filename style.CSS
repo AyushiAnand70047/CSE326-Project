@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+/* Login Page Styling */
+.font3{
+    font-size: 50px;
+    color: black;
+}
+.container {
+    width: 500px;
+}
+.form-item {
+    margin: 50px;
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(82, 81, 81);
+}
+.form-item:hover {
+    border: 1px solid rgb(82, 81, 81);;
+}
+.input {
+    font-size: 28px;
+    background: transparent;
+    color: rgb(5, 5, 73);
+}
+.lg{
+    width: 250px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 13px;
+    color: black;
+    background-color: rgb(225, 12, 55);
+    cursor: pointer;
+}
+.lg:hover {
+    background: rgb(218, 95, 120);
+}
+.fb{
+    padding: 13px;
+    font-size: 20px;
+    margin: 15px;
+    width: 180px;
+    color: black;
+    background: rgb(25, 123, 193);
+    cursor: pointer;
+}
+.gl{
+    padding: 13px;
+    font-size: 20px;
+    margin: 15px;
+    width: 180px;
+    color: black;
+    background: rgb(244, 44, 44);
+    cursor: pointer;
+}
+
+.fb:hover{
+    background: rgb(86, 156, 236);
+}
+.gl:hover{
+    background: rgb(242, 103, 103);
+}
+/* Header Styling */
+.header{
+    width: 100%;
+    background-color: rgb(13, 11, 107);
+}
+.header1{
+    width: 100%;
+    padding: 20px;
+}
+.main{
+    color: white;
+    font-size: 50px;
+}
+.font{
+    font-family: Arial;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.font:hover{
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: rgb(14, 2, 57);
+}
+/* Home Page Styling */
+#home{
+    width: 100%;
+}
+.font2{
+    color: crimson;
+    font-size: 90px;
+}
+
+/* Blog Styling */
+.blog{
+    font-family: Arial;
+    font-size: x-large;
+}
+.blog1{
+    font-size: 20px;
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+.cheatsheet{
+    cursor: pointer;
+}
+.cheatsheet:hover{
+    background-color: rgb(191, 191, 197);
+}
+.font1{
+    font-size: 30px;
+    color: black;
+}
+.code {
+    margin: 20px 50px;
+    background-color: black;
+    color: aqua;
+    font-size: x-large;
+}
+
+/* Contact us Styling */
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

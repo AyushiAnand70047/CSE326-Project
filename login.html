@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: url("bg.webp") no-repeat;
+            background-size: cover;
+        }
+    </style>
+        <script src="Javascript.js"></script>
+</head>
+
+<body>
+    <div align="center">
+        <div class="container">
+            <font class="font3">Login Here</font>
+            <form action="home.html" name="form" onsubmit="return(Validate());">
+                <div class="form-item">
+                    <input name="Email" class="input" type="text" placeholder="username or email">
+                </div>
+                <div class="form-item">
+                    <input name="Password" class="input" type="password" placeholder="password">
+                </div>
+                <button type="submit" class="lg"> LOGIN </button>
+                <p> Or Login Using</p>
+                <div>
+                    <button class="fb">Facebook</button>
+                    <button class="gl">Google</button>
+                </div>
+                <p>New User? <a href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
